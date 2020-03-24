@@ -1,0 +1,16 @@
+body {
+    margin: 0em;
+    background-color: aquamarine;
+}
+
+.title {
+    display: flex;
+    align-items: center
+}
+
+p {
+    margin: 0em;
+    text-align: center;
+    width: 4em;
+    font-size: 1.2rem;
+}
