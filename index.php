@@ -14,15 +14,10 @@
 <p class="text">Titel</p><p class="text">Rating</p>
 </div>
 <?php
-include 'includes/connect.php';
+require 'includes/connect.php';
 
 /* Insert de informatie per row (repeated for each piece of info)*/
-/*
-$sql = "INSERT INTO films (Title, Duur) 
-VALUES ('Sint', 85)";
-
-$pdo->exec($sql);
-*/
+/*$sql = "INSERT INTO films (Title, Duur) VALUES ('Sint', 85)";$pdo->exec($sql);*/
 
 /*print de info*/
 echo "<table>";
