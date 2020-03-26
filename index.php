@@ -16,9 +16,6 @@
 <?php
 require 'includes/connect.php';
 
-/* Insert de informatie per row (repeated for each piece of info)*/
-/*$sql = "INSERT INTO films (Title, Duur) VALUES ('Sint', 85)";$pdo->exec($sql);*/
-
 /*print de info*/
 echo "<table>";
 $data = $pdo->query("SELECT * FROM series")->fetchAll();
